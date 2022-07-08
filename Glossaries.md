@@ -7,6 +7,7 @@
 * [Run a Translate Test with Glossary](#run-a-translate-test-with-glossary)
 * [Listing entries of a glossary](#listing-entries-of-a-glossary)
 * [Delete Glossary](#delete-glossary)
+* [Update Glossary?](#update-glossary)
 * [Reference](#reference)
 
 ## Example Variables
@@ -115,6 +116,12 @@ curl "https://api.deepl.com/v2/glossaries/64de1443-1d17-4247-bb8b-629e6b5c6978" 
 ```
 
 Example Response: none
+
+## Update Glossary?
+
+As of July, 2022, there is no API to update a glossary.
+
+It is recommended that a new glossary is made and delete the old glossary.
 
 ## Reference
 
